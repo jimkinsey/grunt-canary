@@ -1,0 +1,26 @@
+{
+  "name": "grunt-canary",
+  "version": "0.1.0",
+  "description": "Grunt task to facilitate canary builds - checking integration with the latest versions of dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "npm",
+    "grunt",
+    "task",
+    "build",
+    "canary",
+    "dependencies",
+    "package"
+  ],
+  "author": "Jim Kinsey",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-jasmine-node": "^0.2.1"
+  }
+}
