@@ -19,6 +19,8 @@ module.exports = (grunt) ->
         coffee: true
       all: ['test']
 
+  grunt.loadTasks 'tasks'
+
   grunt.loadNpmTasks 'grunt-jasmine-node'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
       

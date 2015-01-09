@@ -17,10 +17,16 @@
   ],
   "author": "Jim Kinsey",
   "license": "ISC",
+  "repository": "git@bitbucket.org:springersbm/grunt-canary",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-coffee": "^0.12.0",
     "grunt-jasmine-node": "^0.2.1"
+  },
+  "dependencies": {
+    "npm": "=2.1.18",
+    "npm-registry": "=0.1.13",
+    "semver": "=4.2.0"
   }
 }
